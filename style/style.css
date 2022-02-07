@@ -17,6 +17,10 @@ a{
 .root-container {
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +32,10 @@ a{
 
 .navbar-container {
     width:100vw;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction : row;
     justify-content: end;
@@ -51,6 +59,10 @@ a{
 }
 
 .navbar-item-container {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,6 +126,10 @@ a{
     height: 10vh;
     border: #2e2e2e solid 3px;
     padding: 0.5em;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -145,6 +161,10 @@ a{
         height: 12vh;
         border: #2e2e2e solid 3px;
         padding: 0.5em;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
